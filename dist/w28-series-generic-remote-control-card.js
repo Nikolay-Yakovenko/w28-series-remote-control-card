@@ -14,7 +14,7 @@ function loadScript(remote_template){
 }
 
 
-class GenericRemotControlCard extends HTMLElement {
+class W28SeriesGenericRemotControlCard extends HTMLElement {
 
   constructor() {
     super();
@@ -103,4 +103,4 @@ class GenericRemotControlCard extends HTMLElement {
     return config.buttons[buttonId];
   }
 
-customElements.define('generic-remote-control-card', GenericRemotControlCard);
+customElements.define('w28-series-remote-control-card', W28SeriesGenericRemotControlCard);
