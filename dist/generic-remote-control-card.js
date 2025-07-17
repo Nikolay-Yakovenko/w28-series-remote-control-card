@@ -5,7 +5,7 @@ function loadScript(remote_template){
   }
 
   var script = document.createElement("script");
-  script.src = `/config/www/community/w28-series-generic-remote-control-card/remotes/${remote_template}/remote-html.js`;
+  script.src = `/config/www/community/w28-series-remote-control-card/remotes/${remote_template}/remote-html.js`;
   script.type = "text/javascript";
   script.async = false;
   document.head.appendChild(script); 
