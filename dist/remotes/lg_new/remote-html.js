@@ -1,7 +1,7 @@
 function getRemoteStyle_lg_new(config) {
    
    const template = config.remote_template;
-   const base_url = `/hacsfiles//w28-series-remote-control-card/remotes/${template}`;
+   const base_url = `/hacsfiles/w28-series-remote-control-card/remotes/${template}`;
     
   return `
     ha-card{
